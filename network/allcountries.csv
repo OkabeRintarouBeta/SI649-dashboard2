@@ -1,0 +1,276 @@
+ISO3,CountryCode,Country Name,CountryCode
+ABW,533,Aruba,533
+AFG,4,Afghanistan,4
+AGO,24,Angola,24
+AIA,660,Anguila,660
+ALB,8,Albania,8
+ALI,248,Åland Islands,248
+AND,20,Andorra,20
+ANT,530,Netherlands Antilles,530
+ARE,784,United Arab Emirates,784
+ARG,32,Argentina,32
+ARM,51,Armenia,51
+ASM,16,American Samoa,16
+ATA,10,Antarctica,10
+ATF,260,Fr. So. Ant. Tr,260
+ATG,28,Antigua and Barbuda,28
+AUS,36,Australia,36
+AUT,40,Austria,40
+AZE,31,Azerbaijan,31
+BAT,80,Br. Antr. Terr,80
+BDI,108,Burundi,108
+BEL,56,Belgium,56
+BEN,204,Benin,204
+BFA,854,Burkina Faso,854
+BGD,50,Bangladesh,50
+BGR,100,Bulgaria,100
+BHR,48,Bahrain,48
+BHS,44,"Bahamas, The",44
+BIH,70,Bosnia and Herzegovina,70
+BLR,112,Belarus,112
+BLX,58,Belgium-Luxembourg,58
+BLZ,84,Belize,84
+BMU,60,Bermuda,60
+BOL,68,Bolivia,68
+BRA,76,Brazil,76
+BRB,52,Barbados,52
+BRN,96,Brunei,96
+BTN,64,Bhutan,64
+BUN,837,Bunkers,837
+BVT,74,Bouvet Island,74
+BWA,72,Botswana,72
+CAF,140,Central African Republic,140
+CAN,124,Canada,124
+CCK,166,Cocos (Keeling) Islands,166
+CHE,756,Switzerland,756
+CHL,152,Chile,152
+CHN,156,China,156
+CIV,384,Cote d'Ivoire,384
+CMR,120,Cameroon,120
+COG,178,"Congo, Rep.",178
+COK,184,Cook Islands,184
+COL,170,Colombia,170
+COM,174,Comoros,174
+CPV,132,Cape Verde,132
+CRI,188,Costa Rica,188
+CSK,200,Czechoslovakia,200
+CUB,192,Cuba,192
+CXR,162,Christmas Island,162
+CYM,136,Cayman Islands,136
+CYP,196,Cyprus,196
+CZE,203,Czech Republic,203
+DDR,278,German Democratic Republic,278
+DEU,276,Germany,276
+DJI,262,Djibouti,262
+DMA,212,Dominica,212
+DNK,208,Denmark,208
+DOM,214,Dominican Republic,214
+DZA,12,Algeria,12
+ECU,218,Ecuador,218
+EGY,818,"Egypt, Arab Rep.",818
+ERI,232,Eritrea,232
+ESH,732,Western Sahara,732
+ESP,724,Spain,724
+EST,233,Estonia,233
+ETF,230,Ethiopia(includes Eritrea),230
+ETH,231,Ethiopia(excludes Eritrea),231
+EUN,918,European Union,918
+FIN,246,Finland,246
+FJI,242,Fiji,242
+FLK,238,Falkland Island,238
+FRA,250,France,250
+FRE,838,Free Zones,838
+FRO,234,Faeroe Islands,234
+FSM,583,"Micronesia, Fed. Sts.",583
+GAB,266,Gabon,266
+GAZ,274,Gaza Strip,274
+GBR,826,United Kingdom,826
+GEO,268,Georgia,268
+GHA,288,Ghana,288
+GIB,292,Gibraltar,292
+GIN,324,Guinea,324
+GLP,312,Guadeloupe,312
+GMB,270,"Gambia, The",270
+GNB,624,Guinea-Bissau,624
+GNQ,226,Equatorial Guinea,226
+GRC,300,Greece,300
+GRD,308,Grenada,308
+GRL,304,Greenland,304
+GTM,320,Guatemala,320
+GUF,254,French Guiana,254
+GUM,316,Guam,316
+GUY,328,Guyana,328
+HKG,344,"Hong Kong, China",344
+HMD,334,Heard Island and McDonald Isla,334
+HND,340,Honduras,340
+HRV,191,Croatia,191
+HTI,332,Haiti,332
+HUN,348,Hungary,348
+IDN,360,Indonesia,360
+IND,356,India,356
+IOT,86,British Indian Ocean Ter.,86
+IRL,372,Ireland,372
+IRN,364,"Iran, Islamic Rep.",364
+IRQ,368,Iraq,368
+ISL,352,Iceland,352
+ISR,376,Israel,376
+ITA,380,Italy,380
+JAM,388,Jamaica,388
+JOR,400,Jordan,400
+JPN,392,Japan,392
+JTN,396,Jhonston Island,396
+KAZ,398,Kazakhstan,398
+KEN,404,Kenya,404
+KGZ,417,Kyrgyz Republic,417
+KHM,116,Cambodia,116
+KIR,296,Kiribati,296
+KN1,658,Saint Kitts-Nevis-Anguilla-Aru,658
+KNA,659,St. Kitts and Nevis,659
+KOR,410,"Korea, Rep.",410
+KSV,412,Kosovo,412
+KWT,414,Kuwait,414
+LAO,418,Lao PDR,418
+LBN,422,Lebanon,422
+LBR,430,Liberia,430
+LBY,434,Libya,434
+LCA,662,St. Lucia,662
+LIE,438,Liechtenstein,438
+LKA,144,Sri Lanka,144
+LSO,426,Lesotho,426
+LTU,440,Lithuania,440
+LUX,442,Luxembourg,442
+LVA,428,Latvia,428
+MAC,446,Macao,446
+MAR,504,Morocco,504
+MCO,492,Monaco,492
+MDA,498,Moldova,498
+MDG,450,Madagascar,450
+MDV,462,Maldives,462
+MEX,484,Mexico,484
+MHL,584,Marshall Islands,584
+MID,488,Midway Islands,488
+MKD,807,"Macedonia, FYR",807
+MLI,466,Mali,466
+MLT,470,Malta,470
+MMR,104,Myanmar,104
+MNG,496,Mongolia,496
+MNP,580,Northern Mariana Islands,580
+MNT,499,Montenegro,499
+MOZ,508,Mozambique,508
+MRT,478,Mauritania,478
+MSR,500,Montserrat,500
+MTQ,474,Martinique,474
+MUS,480,Mauritius,480
+MWI,454,Malawi,454
+MYS,458,Malaysia,458
+MYT,175,Mayotte,175
+NAM,516,Namibia,516
+NCL,540,New Caledonia,540
+NER,562,Niger,562
+NFK,574,Norfolk Island,574
+NGA,566,Nigeria,566
+NIC,558,Nicaragua,558
+NIU,570,Niue,570
+NLD,528,Netherlands,528
+NOR,578,Norway,578
+NPL,524,Nepal,524
+NRU,520,Nauru,520
+NZE,536,Neutral Zone,536
+NZL,554,New Zealand,554
+OMN,512,Oman,512
+PAK,586,Pakistan,586
+PAN,591,Panama,591
+PCE,582,Pacific Islands,582
+PCN,612,Pitcairn,612
+PCZ,592,Fm Panama Cz,592
+PER,604,Peru,604
+PHL,608,Philippines,608
+PLW,585,Palau,585
+PMY,459,Pen Malaysia,459
+PNG,598,Papua New Guinea,598
+POL,616,Poland,616
+PRI,630,Puerto Rico,630
+PRK,408,"Korea, Dem. Rep.",408
+PRT,620,Portugal,620
+PRY,600,Paraguay,600
+PSE,275,Occ.Pal.Terr,275
+PYF,258,French Polynesia,258
+QAT,634,Qatar,634
+REU,638,Reunion,638
+ROM,642,Romania,642
+RUS,643,Russian Federation,643
+RWA,646,Rwanda,646
+RYU,647,Ryukyu Is,647
+SAU,682,Saudi Arabia,682
+SBH,461,Sabah,461
+SDN,736,Sudan,736
+SEN,686,Senegal,686
+SER,891,Yugoslavia,891
+SGP,702,Singapore,702
+SGS,239,South Georgia and the South Sa,239
+SHN,654,Saint Helena,654
+SIK,698,SIKKIM,698
+SJM,744,Svalbard and Jan Mayen Is,744
+SLB,90,Solomon Islands,90
+SLE,694,Sierra Leone,694
+SLV,222,El Salvador,222
+SMR,674,San Marino,674
+SOM,706,Somalia,706
+SPE,839,Special Categories,839
+SPM,666,Saint Pierre and Miquelon,666
+STP,678,Sao Tome and Principe,678
+SUR,740,Suriname,740
+SVK,703,Slovak Republic,703
+SVN,705,Slovenia,705
+SVR,868,Fm Vietnam Rp,868
+SVU,810,Soviet Union,810
+SWE,752,Sweden,752
+SWK,457,Sarawak,457
+SWZ,748,Swaziland,748
+SYC,690,Seychelles,690
+SYR,760,Syrian Arab Republic,760
+TAN,835,Fm Tanganyik,835
+TCA,796,Turks and Caicos Isl.,796
+TCD,148,Chad,148
+TGO,768,Togo,768
+THA,764,Thailand,764
+TJK,762,Tajikistan,762
+TKL,772,Tokelau,772
+TKM,795,Turkmenistan,795
+TMP,626,East Timor,626
+TON,776,Tonga,776
+TTO,780,Trinidad and Tobago,780
+TUN,788,Tunisia,788
+TUR,792,Turkey,792
+TUV,798,Tuvalu,798
+TWN,158,"Taiwan, China",158
+TZA,834,Tanzania,834
+UGA,800,Uganda,800
+UKR,804,Ukraine,804
+UMI,581,United States Minor Outlying I,581
+UNS,898,Unspecified,898
+URY,858,Uruguay,858
+USA,840,United States,840
+USP,849,Us Msc.Pac.I,849
+UZB,860,Uzbekistan,860
+VAT,336,Holy See,336
+VCT,670,St. Vincent and the Grenadines,670
+VDR,866,Fm Vietnam DR,866
+VEN,862,Venezuela,862
+VGB,92,British Virgin Islands,92
+VIR,850,Virgin Islands (U.S.),850
+VNM,704,Vietnam,704
+VUT,548,Vanuatu,548
+WAK,872,Wake Island,872
+WLD,0, World,0
+WLF,876,Wallis and Futura Isl.,876
+WSM,882,Samoa,882
+YDR,720,Yemen Democratic,720
+YEM,887,Yemen,887
+YUG,890,"Yugoslavia, FR (Serbia/Montene",890
+ZAF,710,South Africa,710
+ZAR,180,"Congo, Dem. Rep.",180
+ZMB,894,Zambia,894
+ZPM,836,Fm Zanz-Pemb,836
+ZW1,717,Fm Rhod Nyas,717
+ZWE,716,Zimbabwe,716
