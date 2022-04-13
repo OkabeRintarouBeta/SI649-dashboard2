@@ -17,13 +17,13 @@ from io import BytesIO
 
 def equirectangular(coords, height, width):
     x = (coords[1] + 180) * (width / 360)
-    y = ((coords[0] * -1) + 90) * height / 180
+    y = ((coords[0] * 1) + 90) * height / 180
     return y, x
 
 
-url = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/HD_15000_x_6500_Equirectangular_Blank_Political_Map_with_Oceans_Marked_in_Blue.png/1024px-HD_15000_x_6500_Equirectangular_Blank_Political_Map_with_Oceans_Marked_in_Blue.png"
-response = requests.get(url)
-img = Image.open(BytesIO(response.content))
+# url = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/HD_15000_x_6500_Equirectangular_Blank_Political_Map_with_Oceans_Marked_in_Blue.png/1024px-HD_15000_x_6500_Equirectangular_Blank_Political_Map_with_Oceans_Marked_in_Blue.png"
+# response = requests.get(url)
+# img = Image.open(BytesIO(response.content))
 
 hs_raw = pd.read_csv("all_2_4_6_digit_duty_rates.csv")
 
@@ -118,7 +118,7 @@ num_results = conn_box
 
 filtered_hs = hs_raw[hs_raw['Product/Sector Code'] == int(code_lookup)]
 
-st.write(hs_raw['Product/Sector Code'].describe())
+# st.write(hs_raw['Product/Sector Code'].describe())
 
 
 
@@ -147,8 +147,8 @@ df = df[['ReporterEconomyCode',
 
 fig = px.line_geo(df, locations="Reporter",
                   color="Value",
-                  text = df['Reporter'],) # "continent" is one of the columns of gapminder)
-                  #projection="orthographic")
+                  text = df['Reporter'],#) # "continent" is one of the columns of gapminder)
+                  projection="orthographic")
 
 
 # trades.to_csv('total trade volume 2017.csv', index = False)
@@ -178,8 +178,6 @@ fig2 = go.Figure(data=go.Choropleth(
     colorbar_title="Doi"
 ))
 
-
-
 for i in range(len(df)):
     fig2.add_trace(
         go.Scattergeo(
@@ -190,10 +188,8 @@ for i in range(len(df)):
             hovertext = str(df.iloc[i,6]) + ", " + str(df.iloc[i,9]) + ": " + str(df.iloc[i,3]),
             line = dict(width = 1.2,color = 'red'),
             opacity = float(np.log(float(df['Value'][i]))) /  float(np.log(float(df['Value'].max()))) ,
-        )
-        
+        )        
     )
-
 
 fig2.update_layout(
     title_text='Global Trade',
@@ -211,16 +207,11 @@ fig2.update_layout(
     )]
 )
 
-
 st.write(access(hs_dict, code_lookup)["label"])
-
-
-
 
 fig = px.line_geo(df, locations="Reporter",
                   color="Partner", # "continent" is one of the columns of gapminder
-                  projection="equirectangular")
-
+                  projection="orthographic")
 
 # trades.to_csv('total trade volume 2017.csv', index = False)
 
@@ -236,7 +227,7 @@ for i in range(len(df)):
         )
     )
 
-# fig.show()
+fig.show()
 
 
 economy_codes = df.ReporterEconomyCode.unique()
@@ -292,7 +283,7 @@ for edge in G.edges():
 # edge_trace = px.scatter_geo(
 edge_trace = go.Scatter(
     x=edge_x, y=edge_y,
-    #lon=edge_x, lat=edge_y,
+    lon=edge_x, lat=edge_y,
     line=dict(width=0.5, color='#888'),
     hoverinfo='none',
     mode='lines')
@@ -340,12 +331,7 @@ node_trace.marker.color = node_adjacencies
 node_trace.text = node_text
 
 map_trace = px.choropleth()
-# map_trace = go.Choropleth()
-
-                    # #locations="iso_alpha",
-                    # # color="lifeExp", # lifeExp is a column of gapminder
-                    # hover_name="Reporter", # column to add to hover information
-                    # color_continuous_scale=px.colors.sequential.Plasma)
+map_trace = go.Choropleth()
 
 
 
@@ -365,7 +351,7 @@ network = go.Figure(data=[node_trace],#, edge_trace],#,map_trace],
                 yaxis=dict(showgrid=False, zeroline=False, showticklabels=False))
                 )
 
-network.add_trace(go.Image(z=img))
+# network.add_trace(go.Image(z=img))
 
 
 
@@ -377,9 +363,9 @@ st.plotly_chart(fig2, use_container_width = False)
 
 st.plotly_chart(network, use_container_width = False)
 
-visualizations = ["Visualization 1", "Visualization 2", "Visualization 3", "Visualization 4"]
+# visualizations = ["Visualization 1", "Visualization 2", "Visualization 3", "Visualization 4"]
 
-select_box = st.sidebar.selectbox(
-    label = "Choose a visual:",
-    options = visualizations
-)
+# select_box = st.sidebar.selectbox(
+#     label = "Choose a visual:",
+#     options = visualizations
+# )
